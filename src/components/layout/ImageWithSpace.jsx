@@ -28,16 +28,22 @@ const StyledContainer = styled.div`
   @media (min-width: ${WIDTH_BREAK}) {
     width: calc(${WIDTH_BREAK} - 100px);
   }
+  
   @media (max-width: ${WIDTH_BREAK}) {
     width: 100%;
   }
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+
+  &:before, &:after {
+    content: '';
+    margin: auto;
+  }
 `
-
-
 
 function ImageWithSpace ({ children, image }) {
   return (
