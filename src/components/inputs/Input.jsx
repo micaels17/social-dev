@@ -13,7 +13,7 @@ const StyledLabel = styled.p`
 const StyledInput = styled.input`
   width: 100%;
   border: 1px solid ${props => props.theme.inputBorder};
-  bckground-color: ${props => props.theme.inputBackground};
+  background-color: ${props => props.theme.inputBackground};
   padding: 15px 20px;
   box-sizing: border-box;
   border-radius: 10px;
