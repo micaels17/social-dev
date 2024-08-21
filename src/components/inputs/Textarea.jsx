@@ -8,6 +8,8 @@ const Textarea = styled.textarea`
   border: 1px solid ${props => props.theme.inputBorder};
   background-color: ${props => props.theme.inputBackground};
   border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 `
 
 export default Textarea
